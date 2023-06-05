@@ -1,5 +1,6 @@
 #include <iostream>
 using std::cout;
+using std::cin;
 
 int main()
 {
@@ -31,5 +32,10 @@ int main()
     f = 9 / 5; // this will be truncated down to 1 instead of 1.8
     //f = 9.0 / 5; // Changing this to a float will make it return 1.8 instead of 1.
     cout << f << '\n';
+
+    cout << "Enter a number: "; // this will promt the user on the screen to input a number.
+    cin >> i; //this will take that number and assign it to the variable i.
+    cout << '\n' << i << '\n'; //we the return the value of i to the screen.
+    //cout << '\n' << i*2 << '\n'; //this should print i multiplied by 2.
 }
 
