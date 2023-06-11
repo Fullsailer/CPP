@@ -1,34 +1,13 @@
 #include <iostream>
 using std::cout;
 
-// This fuction simple adds two integer numbers together.
-int add(int x, int y)
-{
-    return x + y;
-}
+// This fuction declares my functions that are in my fuciton.cpp file.
+int add(int x, int y);
+double add(double x, double y);
+double add(double a, double b, double c);
+bool test(bool x);
+bool test(double x);
 
-//This function simple adds two double numbers together.
-double add(double x, double y)
-{
-    return x + y;
-}
-
-//This is an example of an overloaded fuction
-double add(double a, double b, double c)
-{
-    return a + b + c;
-    //alternatively: reurn add(add(a,d),c);
-    //This calls would call a 2 paramiter add 
-}
-
-bool test(bool x)
-{
-    return x;
-}
-bool test(double x)
-{
-    return x > 0;
-}
 
 int main()
 {
